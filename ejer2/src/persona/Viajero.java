@@ -6,7 +6,16 @@ public class Viajero {
     private String nacionalidad;
     private String direccion;
 
-    
+    //Constructor(Tiene el mismo nombre que la clase)
+    public void Viajero(String DNI,String nombre,String apellido,String nacionalidad,String direccion){
+
+        this.DNI = DNI;
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.nacionalidad = nacionalidad;
+        this.direccion = direccion;
+
+    }
     //Se quita el public porque queiro que sea package private
     String getDNI() {
         return DNI;
