@@ -1,3 +1,4 @@
+package persona;
 public class Viajero {
     private String DNI;
     private String nombre;
